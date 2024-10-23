@@ -16,7 +16,7 @@ isPrimeAssembly:
         # Initialize loop counter and indicies
         # loop counter (i)
         MOV X4, #0
-        # prime array idx
+        # prime array idx 
         MOV X5, #0
         # composite index
         MOV X6, #0
