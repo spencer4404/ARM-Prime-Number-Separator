@@ -35,10 +35,10 @@ loop_start:
 
         # Check if it was prime
         CMP X15, #1
-        # if equal to 1, store in prime
+        # if equal to 1, store in prime (with offset)
         B.EQ store_prime
 
-# else, store in composite
+# else, store in composite (with offset)
 store_composite:
         STR X11, [X2, X6, LSL #3]
         # increment composite idx
