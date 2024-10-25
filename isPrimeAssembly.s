@@ -29,7 +29,7 @@ loop_start:
         # load a[i] into X11
         LDR X11, [X0, X4, LSL #3]
 
-        # Move a[i] into X0 and check if its prime
+        # Move a[i] into X15 and check if its prime
         MOV X15, X11
         BL isPrime
 
