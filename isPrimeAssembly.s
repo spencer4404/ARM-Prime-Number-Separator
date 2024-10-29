@@ -79,7 +79,7 @@ loop_check:
         B.GT prime_return
 
         # Perform n % j
-        # If remainder is found, then it is composite
+        # If remainder is found to be zero, then it is composite
 
         # Quotient in X9 - n / j 
         UDIV X9, X15, X7
